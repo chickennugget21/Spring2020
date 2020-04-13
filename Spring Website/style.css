@@ -15,18 +15,18 @@ body {
 
 h1 {
     margin-bottom: 40px;
-    font-size: 60px;
+    font-size: 16vw;
 }
 
 .sub-heading {
     display: block;
     margin: auto;
-    font-size: 2em;
+    font-size: 10vw;
     max-width: 550px;
 }
 
 .custom.btn-lg {
-    font-size: 20px;
+    font-size: 5vw;
     padding: 1rem 4rem;
     font-weight: 700;
 }
