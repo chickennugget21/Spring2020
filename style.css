@@ -1,0 +1,49 @@
+/* * {
+    box-sizing: border-box;
+} */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    padding: 50px 50px 30px 50px;
+    background: #006EB6;
+    color: white;
+    margin-bottom: 2em;
+}
+
+h1 {
+    margin-bottom: 40px;
+    font-size: 60px;
+}
+
+.sub-heading {
+    display: block;
+    margin: auto;
+    font-size: 2em;
+    max-width: 550px;
+}
+
+.custom.btn-lg {
+    font-size: 20px;
+    padding: 1rem 4rem;
+    font-weight: 700;
+}
+
+.custom.row {
+    margin-bottom: 3em;
+}
+
+footer {
+    padding: 20px;
+    font-size:1.25em;
+}
+
+#output {
+    max-width: 720px;
+    display: block;
+    margin:auto;
+    height: 2em;
+    font-size:2em;
+}
