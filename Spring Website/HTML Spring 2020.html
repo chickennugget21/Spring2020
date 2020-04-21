@@ -97,14 +97,10 @@
 			return arr[Math.floor(Math.random() * arr.length)];
 		}
 
-		$(document).ready(function () {
-			$('#btn-challenge').click(() => {
-				console.log("Button clicked");
-				$('#output').html(getChallenge());
-
-			});
-
+		document.getElementById("btn-challenge").addEventListener("click", () => {
+			document.getElementById("output").innerHTML = getChallenge();
 		});
+
 	</script>
 	<!-- Popper.js -->
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
